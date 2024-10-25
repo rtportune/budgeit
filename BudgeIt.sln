@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgeIt", "WpfApp1\BudgeIt.csproj", "{84332BED-3BBD-4079-9215-9E3F91AB55CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84332BED-3BBD-4079-9215-9E3F91AB55CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84332BED-3BBD-4079-9215-9E3F91AB55CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84332BED-3BBD-4079-9215-9E3F91AB55CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84332BED-3BBD-4079-9215-9E3F91AB55CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37C3ACC4-7A74-4132-A352-4A9272F9CBA0}
+	EndGlobalSection
+EndGlobal
