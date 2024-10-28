@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BudgeIt.Interface.UI;
+using BudgeIt.UI.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -11,6 +13,29 @@ namespace BudgeIt.UI.ViewModels
 {
     public abstract class ViewModel : INotifyPropertyChanged
     {
+        protected IDialogService _dialogService;
+
+        public ViewModel() : this(DialogService.Instance)
+        {
+
+        }
+
+        public ViewModel(IDialogService dialogService)
+        {
+            _dialogService = dialogService;
+
+            RegisterDialogs();
+        }
+
+        protected void RegisterDialogs()
+        {
+            if (_dialogService == null) return;
+
+            _dialogService.Register<PasswordViewModel, PasswordView>();
+
+            //Register additional dialogs here..
+        }
+
         /// <summary>
         /// Occurs when a property value changes.
         /// </summary>

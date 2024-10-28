@@ -18,6 +18,7 @@
 
         <Menu Grid.Row="0">
             <MenuItem Header="_File">
+                <MenuItem Header="_New Database" Command="{Binding CmdNewDatabase}"/>
                 <MenuItem Header="_Open Database" Command="{Binding CmdOpenDatabase}"/>
             </MenuItem>
         </Menu>
